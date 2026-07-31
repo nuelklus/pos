@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-07-27T10:42:35.051604+00:00",
+  "project_root": "C:\\Users\\NAME\\NexlogsHardware",
+  "user_email": "emmanuel@klutsehardware.com",
+  "tenant_id": "4df8845e-135c-42dd-9aea-6c52ede32a72",
+  "iterations": 3,
+  "endpoints": [
+    {
+      "name": "owner_dashboard",
+      "method": "GET",
+      "path": "/api/dashboard/",
+      "status": 200,
+      "iterations_completed": 3,
+      "avg_ms": 1706.417,
+      "min_ms": 1603.101,
+      "max_ms": 1834.093,
+      "avg_queries": 8.0,
+      "min_queries": 8,
+      "max_queries": 8,
+      "raw_timings_ms": [
+        1834.093,
+        1603.101,
+        1682.057
+      ],
+      "raw_query_counts": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "inventory_dashboard",
+      "method": "GET",
+      "path": "/api/inventory/dashboard/",
+      "status": 200,
+      "iterations_completed": 3,
+      "avg_ms": 201.824,
+      "min_ms": 200.737,
+      "max_ms": 202.602,
+      "avg_queries": 1.0,
+      "min_queries": 1,
+      "max_queries": 1,
+      "raw_timings_ms": [
+        202.133,
+        200.737,
+        202.602
+      ],
+      "raw_query_counts": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "activity_list",
+      "method": "GET",
+      "path": "/api/activity/",
+      "status": 200,
+      "iterations_completed": 3,
+      "avg_ms": 228.842,
+      "min_ms": 199.47,
+      "max_ms": 286.814,
+      "avg_queries": 1.0,
+      "min_queries": 1,
+      "max_queries": 1,
+      "raw_timings_ms": [
+        286.814,
+        199.47,
+        200.242
+      ],
+      "raw_query_counts": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "customers_accounts_dashboard",
+      "method": "GET",
+      "path": "/api/customers/accounts/dashboard/",
+      "status": 200,
+      "iterations_completed": 3,
+      "avg_ms": 881.722,
+      "min_ms": 824.506,
+      "max_ms": 916.051,
+      "avg_queries": 4.0,
+      "min_queries": 4,
+      "max_queries": 4,
+      "raw_timings_ms": [
+        824.506,
+        916.051,
+        904.61
+      ],
+      "raw_query_counts": [
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}
